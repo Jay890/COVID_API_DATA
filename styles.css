@@ -1,0 +1,55 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+  /* border-spacing: 50px 20px; */
+}
+
+th {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+
+th,
+td {
+  padding: 20px 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+tr {
+  background: bisque;
+}
+
+td {
+  background: lightcyan;
+}
+
+td:hover {
+  background-color: aquamarine;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  background: indianred;
+  width: 200px;
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
